@@ -1,0 +1,25 @@
+Project Goals
+- Receive data from satellite and convert data to image
+    - Should take no more than 10 minutes to display image
+    - Image should be (relatively) real time
+    - Image will be displayed on external computer display via USB (potentially its own standalone unit)
+    - Process does not have to be continuous
+    - The accuracy of the image should be verified with an external resource
+- The user will push a button to initiate the process. This process will end by an image being displayed.
+- The device should be able to be carried by a single person
+
+Rough Flowchart (to be finalized)
+Satellite -> LNA -> ADC (SDR) -> RPI -> FPGA -> RPI -> Display
+
+Division of labor
+Andrew: LNA, ADC/SDR, signal processing support
+Ted:    Firmware, FPGA programming, digital design support
+
+Rough Development Plan
+- Steps
+    - Modularize device into sections described above. 
+    - Create test plans for each of modules.
+    - Validate the functionality of each module individually
+    - Test modules together
+    - Add in any extra ideas we think of that are beyond the initial scope of the project
+- Additionally, if we are able to buy off-the-shelf products to perform certain functions of the device for the purpose of having a working model to derive inspiration from, that would be great.
