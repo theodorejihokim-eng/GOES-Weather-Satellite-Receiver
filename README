@@ -1,0 +1,4 @@
+This is a description of the GOES Satellite Reciever Project.
+The document will describe basic operation of device and high-level functional overview.
+
+It will include an Antenna, LNA, ADC (Possible an SDR instead), RPI, Altera FPGA.
