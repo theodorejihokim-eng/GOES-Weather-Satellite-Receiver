@@ -1,0 +1,13 @@
+This will be an ever growing document of the outcomes and notes of meetings.
+Meeting times and notes will not be strict by any means
+
+11-7-2026
+- Ted and Andrew met to discuss the scope of project
+    - laid out main project goal which is detailed in project_scope.txt
+    - identified the GOES satellite as our data source
+- Action Items
+    - Create more detailed development plan (?)
+    - Research GOES Satellite (both)
+    - Research FPGA synthesizer software (ted)]
+    - Set up github (done by ted)
+    - Narrow down the major parts list
