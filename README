@@ -1,4 +1,11 @@
 This is a description of the GOES Satellite Reciever Project.
 The document will describe basic operation of device and high-level functional overview.
 
-It will include an Antenna, LNA, ADC (Possible an SDR instead), RPI, Altera FPGA.
+Basic Idea: use some sort of signal receiver (satellite to LNA etc), passed to
+SDR for processing (filtering demodulation), and then use RPI for demodula-
+tion/conversion to bitstream. Bitstream is then passed to a FPGA for protocol
+decoding, and resulting packets are then passed to another type of microcon-
+troller/SBC to convert packets into anything from image data to pure data.
+Possibly use 1 RPI for all processing if possible? If too intensive, get another
+Microcontroller to split the load for demodulation and data conversion. Inter-
+face RPI with laptop for easy display/interaction with data.
