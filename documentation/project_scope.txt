@@ -8,12 +8,18 @@ Project Goals
 - The user will push a button to initiate the process. This process will end by an image being displayed.
 - The device should be able to be carried by a single person
 
+Stretch Goals (write down literally anything you can think of)
+- Generic satellite receiver that can be tuned to different satellites
+- Complete standalone module
+- 
+
 Rough Flowchart (to be finalized)
-Satellite -> LNA -> ADC (SDR) -> RPI -> FPGA -> RPI -> Display
+Satellite -> Antenna, LNA -> ADC (SDR) -> RPI -> FPGA -> RPI -> Display
+- Power still needs to be planned
 
 Division of labor
-Andrew: LNA, ADC/SDR, signal processing support
-Ted:    Firmware, FPGA programming, digital design support
+Andrew: Antenna, LNA, ADC/SDR, Power, signal processing support
+Ted:    Firmware, FPGA programming, digital design support (idrk, Ted knows scope of this better)
 
 Rough Development Plan
 - Steps
